@@ -1,0 +1,1395 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="温室效应, Python,深度學習,Java,Linux等">
+    <meta name="description" content="前進吧，少年！">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>温室效应 | 這是樺煙君的領域！</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<meta name="generator" content="Hexo 5.4.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="這是樺煙君的領域！" type="application/atom+xml">
+</head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">這是樺煙君的領域！</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      
+      <span>Medias</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/musics">
+          
+          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Musics</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/movies">
+          
+          <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Movies</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/books">
+          
+          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Books</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/galleries">
+          
+          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Galleries</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">這是樺煙君的領域！</div>
+        <div class="logo-desc">
+            
+            前進吧，少年！
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-list"></i>
+			
+			Medias
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/musics " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Musics</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/movies " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Movies</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/books " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Books</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/galleries " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Galleries</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">温室效应</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E7%A7%91%E6%99%AE/">
+                                <span class="chip bg-color">科普</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-05-13
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>温室效应是近些年来我们都能深刻感受到的一种现象</p>
+<p>温室效应，又称 “花房效应”，是大气保温效应的俗称。大气能使太阳短波辐射到达地面，但地表受热后向外放出的大量长波热辐射线却被大气吸收，这样就使地表与低层大气温度增高，因其作用类似于栽培农作物的温室，故名温室效应。自工业革命以来，人类向大气中排入的二氧化碳等吸热性强的温室气体逐年增加，大气的温室效应也随之增强，其引发了一系列问题已引起了世界各国的关注。</p>
+<p>这一段摘自百度百科的话，是在说明，地球接受了太阳的短波，却不能将长波返回<br>
+就像借了钱的人我发还钱一样，人不能还钱有多种原因，但是地球的温室效应是因为二氧化碳的增加</p>
+<h3 id="定义"><a class="markdownIt-Anchor" href="#定义">#</a> 定义</h3>
+<p>温室效应是指透射阳光的密闭空间由于与外界缺乏热对流而形成的保温效应，即太阳短波辐射可以透过大气射入地面，而地面增暖后放出的长波辐射却被大气中的二氧化碳等物质所吸收，从而产生大气变暖的效应。大气中的二氧化碳就像一层厚厚的玻璃，使地球变成了一个大暖房。<br>
+如果没有大气，地表平均温度就会下降到 - 23℃，而实际地表平均温度为 15℃，这就是说温室效应使地表温度提高 38℃。大气中的二氧化碳浓度增加，阻止地球热量的散失，使地球发生可感觉到的气温升高，这就是有名的 “温室效应”。</p>
+<h3 id="原理"><a class="markdownIt-Anchor" href="#原理">#</a> 原理</h3>
+<p>世界上，宇宙中任何物体都辐射电磁波。物体温度越高，辐射的波长越短。太阳表面温度约 6000K，它发射的电磁波长很短，称为太阳短波辐射（其中包括从紫到红的可见光）。地面在接受太阳短波辐射而增温的同时，也时时刻刻向外辐射电磁波而冷却。地球发射的电磁波长因为温度较低而较长，称为地面长波辐射。短波辐射和长波辐射在经过地球大气时的遭遇是不同的：大气对太阳短波辐射几乎是透明的，却强烈吸收地面长波辐射。大气在吸收地面长波辐射的同时，它自己也向外辐射波长更长的长波辐射（因为大气的温度比地面更低）。其中向下到达地面的部分称为逆辐射。地面接受逆辐射后就会升温，或者说大气对地面起到了保温作用。这就是大气温室效应的原理。</p>
+<h3 id="直接原因"><a class="markdownIt-Anchor" href="#直接原因">#</a> 直接原因</h3>
+<p>温室效应主要是由于现代化工业社会过多燃烧煤炭、石油和天然气，产生的和大量排放的汽车尾气中含有的二氧化碳气体进入大气造成的。</p>
+<h3 id="相关特点"><a class="markdownIt-Anchor" href="#相关特点">#</a> 相关特点</h3>
+<p>温室有两个特点：1. 室内温度高，2. 不散热。<br>
+生活中我们可以见到的玻璃育花房和蔬菜大棚就是典型的温室。使用玻璃或透明塑料薄膜来做温室，是让太阳光能够直接照射进温室，加热室内空气，而玻璃或透明塑料薄膜又可以不让室内的热空气向外散发，使室内的温度保持高于外界的状态，以提供有利于植物快速生长的条件。之所以称这一效应为温室效应，亦与此原理有关。</p>
+<h3 id="主要影响"><a class="markdownIt-Anchor" href="#主要影响">#</a> 主要影响</h3>
+<p>气候影响</p>
+<p>温室气体有效地吸收地球表面、大气本身相同气体和云所发射出的红外辐射。大气辐射向所有方向发射，包括向下方的地球表面的放射。温室气体则将热量捕获于地面 - - 对流层系统之内。这被称为 “自然温室效应”。大气辐射与其气体排放的温度水平强烈耦合。在对流层中，温度一般随高度的增加而降低。从某一高度射向空间的红外辐射一般产生于平均温度在 - 19℃的高度，并通过太阳辐射的收入来平衡，从而使地球表面的温度能保持在平均 1 4 ℃。温室气体浓度的增加导致大气对红外辐射不透明性能力的增强，从而引起由温度较低、高度较高处向空间发射有效辐射。这就造成了一种辐射强迫，这种不平衡只能通过地面 对流层系统温度的升高来补偿。这就是 “增强的温室效应”。如果大气不存在这种效应，那么地表温度将会下降约 33 度或更多。反之，若温室效应不断加剧，全球温度也必将逐年持续升高。<br>
+自十九世纪以来的 100 年间全球地表气温上升或 0.2 一 0.69℃。从 1880 一 1998 年间 119 年的资料看，全球变暖的趋势为 0.53℃/100a。150 年来在威丝康星和日本等各地方记录下来的湖面结冰和融化的时间变化为全球变暖提供了进一步的证据。在 1946 一 1995 年这些湖泊的结冰时间晚了 9.5d 而融化时间提早了 8.6d，在这一期间，平均气温上升了 1.8℃。气候变暖主要发生在本世纪 20 年代到 40 年代以及 70 年代中期以来的两个时期。进人 80 年代以来全球温度的上升有加速的趋势，90 年代后的 1990 年、1995 年、1997 年和 1998 年全球平均温度数次创历史最高记录，过去的 10 年是自 1659 年开始记录气象以来北半球最暖的 10 年。一般而言，全球变暖呈现较大的区域差异，高纬度地区的增温大于低纬地区，陆地变暖比海洋明显。据预测下世纪全球年平均气温将升高 1.5- 4.59℃，北半球中高维地区温度将升高 5 一 10℃，全球气温将以 0.39C/l0a (0.2-0.5℃) 的速度增加，这将使全球平均气温在 2025 年增加 1.0℃、下世纪末增加 3.0℃。速度之快是过去十万多年来最高的。尽管对增温幅度的预测不尽相同，但可以肯定的是未来全球气温将是不断升高的趋势。<br>
+在 2006 年公布的气候变化经济学报告中显示，如果我们仅以 2006 年的生活方式，到 2100 年全球气温将有 50% 的可能会上升 4 摄氏度多。同时，英国《卫报》表示，气温如果这样升高就会打乱全球数百万人的生活，甚至全球的生态平衡，最终导致全球发生大规模的迁移和冲突。</p>
+<p>环境影响</p>
+<p>①全球变暖<br>
+温室气体浓度的增加会减少红外线辐射放射到太空外，地球的气候因此需要转变来使吸取和释放辐射的份量达至新的平衡。这转变可包括‘全球性’的地球表面及大气低层变暖，因为这样可以将过剩的辐射排放出外。虽然如此，地球表面温度的少许 上升可能会引发其他的变动，例如：大气层云量及环流的转变。当中某些转变可使地面变暖加剧（正反馈），某些则可令变暖过程减慢（负反馈）。利用复杂的气候模式，‘政府间气候变化专门委员会’在第三份评估报告估计全球的地面平均气温会在 2100 年上升 1.4 至 5.8℃。这预计已考虑到大气 层中悬浮粒子倾于对地球气候降温的效应与及海洋吸收热能的作用 （海洋有较大的热容量）。但是，还有很多未确定的因素会影响 这个推算结果，例如：未来温室气体排放量的预计、对气候转变的各种反馈过程和海洋吸热的幅度等等。<br>
+②地球上的病虫害增加<br>
+温室效应可使史前致命病毒威胁人类，美国科学家发出警告，由于全球气温上升令北极冰层融化，被冰封十几万年的史前致命病毒可能会重见天日，导致全球陷入疫症恐慌，人类生命受到严重威胁。纽约锡拉丘兹大学的科学家在最新一期《科学家杂志》中指出，早前他们发现一种植物病毒 TOMV，由于该病毒在大气中广泛扩散，推断在北极冰层也有其踪迹。于是研究员从格陵兰抽取 4 块年龄由 500 至 14 万年的冰块，结果在冰层中发现 TOMV 病毒（Tomato Masaic Virus 番茄花叶病毒纽）。研究员指该病毒表层被坚固的蛋白质包围，因此可在逆境生存。<br>
+这项新发现令研究员相信，一系列的流行性感冒、小儿麻痹症和天花等疫症病毒可能藏在冰块深处，人类对这些原始病毒尚无抵抗能力，当全球气温上升令冰层融化时，这些埋藏在冰层千年或更长的病毒便可能会复活，形成疫症。科学家表示，虽然他们不知道这些病毒的生存希望，或者其再次适应地面环境的机会，但肯定不能抹煞病毒卷土重来的可能性。<br>
+③海平面上升<br>
+假若‘全球变暖’正在发生，有两种过程会导致海平面升高。第一种是海水受热膨胀令水平面上升。第二种是冰川和格陵兰及南 极洲上的冰块溶解使海洋水份增加。预期由 1900 年至 2100 年地球的平均海平面上升幅度介乎 0.09 米至 0.88 米之间。<br>
+全球暖化南太小岛即将没顶，全球暖化使南北极的冰层迅速融化，海平面上升对岛屿国家和沿海低洼地区带来的灾害是显而易见的，突出的是：淹没土地，侵蚀海岸。全世界岛屿国家有 40 多个，大多分布在太平洋和加勒比海地区，地理面积总和约为 77 万平方公里，人口总和约为 4300 万，依据《联合国海洋法公约》有关规定，这些岛国将负责管理占地球表面 1/5 的海洋环境，其重要战略地位是不言而喻的。尽管这些岛国人均国民产值普遍较高，但极易遭受海洋灾害毁灭性的打击，特别是全球气候变暖海平面上升的威胁最为严重，很多岛国的国土仅在海平面上几米，有的甚至在海平面以下，靠海堤围护国土，海平面上升将使这些国家面临淹没的危险。<br>
+沿海区域是各国经济社会发展最迅速的地区，也是世界人口最集中的地区，约占全世界 60% 以上的人口生活在这里。各洲的海岸线约有 35 万公里，其中近万公里为城镇海岸线，海平面上升这些地区将是首当其冲的重灾区。据有关研究结果表明，当海平面上升 1 米以上，一些世界级大城市，如纽约、伦敦、威尼斯、曼谷、悉尼、上海等将面临浸没的灾难；而一些人口集中的河口三角洲地区更是最大的受害者，特别是印度和孟加拉间的恒河三角洲、越南和柬埔寨间的湄公河三角洲，以及我国的长江三角洲、珠江三角洲和黄河三角洲等。据估算当海平面上升 1 米时，我国沿海将有 12 万平方公里土地被淹，7 千万人口需要内迁；在孟加拉国将失去现有土地的 12%，占人口总量的 1/10 将出走；占世界海岸线 15% 的印度尼西亚，将有 40% 的国土受灾；而工业比较集中的北美和欧洲一些沿海城市也难幸免。<br>
+④土地沙漠化<br>
+土地沙漠化是一个全球性的环境问题。有历史记载以来，中国已有 1200 万公顷的土地变成了沙漠，特别是近 50 年来形成的 “现代沙漠化土地” 就有 500 万公顷。据联合国环境规划署（UNEP）调查，在撒哈拉沙漠的南部，沙漠每年大约向外扩展 150 万公顷。全世界每年有 600 万公顷的土地发生沙漠化。每年给农业生产造成的损失达 260 亿美元。从 1968 年到 1984 年，非洲撒哈拉沙漠的南缘地区发生了震惊世界的持续 17 年的大旱，给这些国家造成了巨大经济损失和灾难，死亡人数达 200 多万。沙漠化使生物界的生存空间不断缩小，已引起科学界和各国政府的高度重视。之前我们提出，气候变冷和构造活动变弱是沙漠化的主要原因，人类活动加速了沙漠化的进程。中国科学家对罗布泊的科学考察提供了不可辩驳的证据。<br>
+⑤缺氧<br>
+温室气体的摩尔质量均大于氧气，世界各国将地球内部的能量开采使用后，地球上最终的环境状态将会与地球在 10 亿年前的情况类似，届时野生动物与人类都将无法生存。</p>
+<p>经济影响</p>
+<p>全球有超过一半人口居住在沿海 100 公里的范围以内，其中大部分住在海港 附近的城市区域。所以，海平面的显著上升对沿岸低洼地区及海岛会造成严重的经济损害，例如：加速沿岸沙滩被海水的冲蚀、 地下淡水被上升的海水推向更远的内陆地方。<br>
+①农业<br>
+实验证明在 CO2 高浓度的环境下，植物会生长得更快速和高大。但是，‘全球变暖’的结果可能会影响大气环流，继 而改变全球的雨量分布与及各大洲表面土壤的含水量。由于未能清楚了解‘全球变暖’对各地区性气候的影响，以致对植物生态所产生的转变亦未能确定。<br>
+2011 年 5 月，美国史丹福大学（Stanford University）发表由洛克菲勒基金会（RockefellerFoundation）赞助的温室效应（GlobalWarming）研究指出，美国、加拿大及墨西哥的农产品，在全球气温上升之中，自 1980 年到 2011 年为止所受到影响不大。这是美国首次发表大气温度对农作物生产相关的研究报告。报告刊登在最新一 Science Express 杂志。<br>
+史丹福大学地球环境系统助教罗贝尔（David Lobell）表示，研究从 1980 年开始监看温室效应与农作物生产之间的关系。研究指出，自 1980 年以来，全球小麦生产下降了 5.5%，玉米生产下降 4%，全球稻米和黄豆则没有受到太大影响。<br>
+罗贝尔指出，美国是全球最大的玉米及黄豆生产国，约占全球生产的 40%，过去 30 年间并没有受到太大的温室效应影响。罗贝尔强调：“到目前为止没受到影响，未来十年则很难说。”<br>
+ 罗贝尔表示，美国之外的地区如俄罗斯、法国、印度等国家的小麦；中国和巴西的玉米产量，在过去 30 年间的生产都下降。美国生产玉米及黄豆地区没有受到温室效果的影响，引起气候学家高度的兴趣，研究为何会不受到影响。「科学家重新检讨温室效应在全世界不同地区造成的影响，探讨是否有其它原因造成温室效应。」<br>
+罗贝尔指出，根据 “全球政府互联气候研究”（IPCC）自 1950 年开始的研究，地球气温平均每十年上升摄氏 0.13 度。IPCC 预测未来 20 到 30 年间，气温上升的更快，“如果这项预测属实，美加地区的农作物生产也将受到影响。”<br>
+ 报告同时指出，因温室效应影响而减少的生产，使全球农作物价格自 1980 年到 2011 年为止上升了 20%。<br>
+②海洋生态<br>
+沿岸沼泽地区消失肯定会令鱼类，尤其是贝壳类的数量减少。河口水质变咸可会减少淡水鱼的品种数目，相反该地区海洋鱼类的 品种也可能相对增多。至于整体海洋生态所受的影响仍未能清楚知道。<br>
+③水循环<br>
+全球降雨量可能会增加。但是，地区性降雨量的改变则仍未知道。某些地区可有更多雨量，但有些地区的雨量可能会减少。此外 ，温度的提高会增加水份的蒸发，这对地面上水源的运用带来压力。<br>
+科学家预测：如果地球表面温度继续升高，到 2050 年全球温度将上升 2－4℃，南北极地冰山将大幅度融化，导致海平面大大上升，一些岛屿国家和沿海城市将淹于水中，其中包括几个著名的国际大城市：纽约，上海，东京和悉尼。<br>
+④男女比例失调<br>
+高温环境容易创造男宝宝，低温环境容易创造女宝宝。研究人员比较担心的是，在全球温度日益增高的温室效应下，男宝宝出生的机率会越来越高，可能会造成男女比例的失衡。<br>
+过去的研究早就发现，小老鼠和小蝙蝠的性别、出生时间、与环境温度有相当密切的关连性。为了找出人类宝宝的性别与环境温度的关系，德国研究人员则是针对 1946-1995 年间的出生记录进行追踪，并且对照当地的温度变化。结果发现，当地的四月到六月是男宝宝出生最多的月份，十月则是男宝宝出生最少的月份。<br>
+进一步的分析显示，受精卵结合前一个月的环境温度，也就是男生与女生在性行为发生前的一个月所处环境的温度，是影响宝宝性别的重要因素。高温环境容易创造男宝宝，低温环境容易创造女宝宝。<br>
+温度之所以会影响宝宝性别，研究人员的假设是：高温会影响精子的 X 染色体，让女宝宝不容易出生；低温会影响精子的 Y 染色体，让男宝宝不容易出生。<br>
+另一个假设则是：温度越高、做爱的欲望越强。高温的环境会刺激男女性行为频率的增加，也使得女性更容易受孕。<br>
+其它的研究则是认为，带有 Y 染色体的精子，游得比较快；但是带有 X 染色体的精子，比较强壮。所以在性行为频繁的状况下，带有 Y 染色体的精子比较容易与卵子结合，生出男宝宝。但是在性行为减少的状况下，带有 X 染色体的精子比较容易等到与卵子结合的机会，更容易生出女宝宝。<br>
+⑤农地积水疟疾肆虐<br>
+穿着传统服饰向来乐天知命的卡特瑞岛人，几百年来遗世独立，始终保持着传统生活模式，但他们却因人类对环境的破坏造成全球暖化，令他们将面临被海水淹没的命运。卡特瑞岛环保人士保罗塔巴锡说：“他们已经持续被海洋力量攻击，还有持续不断的洪水，原有的地区都被改变了，被破坏殆尽，几乎所有的地方都被海水淹没了。”<br>
+ 不堪的是，招致蚊子苍蝇丛生，疟疾肆虐。<br>
+⑥亚马逊雨林逐渐消失<br>
+而位于南美洲、全世界面积最大的热带雨林 —— 亚马逊雨林正渐渐消失，让全球暖化危机雪上加霜。<br>
+号称地球之肺的亚马逊雨林涵盖了地球表面 5% 的面积，制造了全世界 20% 的氧气及 30% 的生物物种，由于遭到盗伐和滥垦，亚马逊雨林正以每年 7700 平方英里的面积消退，相当于一个新泽西州的大小，雨林的消退除了会让全球暖化加剧之外，更让许多只能够生存在雨林内的生物，面临灭种的危机，在过去的 40 年，雨林已经消失了两成。<br>
+⑦新的冰川期来临<br>
+全球暖化还有个非常严重的后果，就是导致冰川期来临。<br>
+南极冰盖的融化导致大量淡水注入海洋，海水浓度降低。“大洋输送带” 因此而逐渐停止：暖流不能到达寒冷海域；寒流不能到达温暖海域。全球温度降低，另一个冰河时代来临。北半球大部被冰封，一阵接着一阵的暴风雪和龙卷风将横扫大陆。</p>
+<p>最终危害：可能会造成恐龙时代的再次降临！</p>
+<p>⑧温室气体排放达临界值<br>
+据国际能源机构估计，2010 年有将近 306 亿吨二氧化碳被 “灌入” 大气中，在 2009 年时二氧化碳的含量就已经达到另人担忧的 1.6Gt，按照 2010 年的二氧化碳生产率，不久将会达到 “危险气候变化” 临界值，到时候全球气温将会上升 2 摄氏度，这种趋势是不可避免的了。据国际能源署（IEA）的权威经济学者表示，保持温度上升低于 2 摄氏度已经成为一个十分具有挑战性的事情，而且前景非常令人担忧。</p>
+<h3 id="主要对策"><a class="markdownIt-Anchor" href="#主要对策">#</a> 主要对策</h3>
+<p>全面禁用氟氯碳化物</p>
+<p>实际上全球正在朝此方向推动努力，是以此案最具实现可能性。倘若此案能够实现，对于 2050 年为止的地球温暖化，根据估计可以发挥 3% 左右的抑制效果。</p>
+<p>保护森林的对策方案</p>
+<p>今日以热带雨林为主的全球森林，正在遭到人为持续不断的急剧破坏。有效的因应对策，便是赶快停止这种毫无节制的森林破坏，另一方面实施大规模的造林工作，努力促进森林再生。由于森林破坏而被释放到大气中的二氧化碳，根据估计每年约在 1～2gt. 碳量左右。倘若各国认真推动节制砍伐与森林再生计划，到了 2050 年，可能会使整个生物圈每年吸收相当于 0.7gt. 碳量的二氧化碳。具结果得以降低 7% 左右的温室效应。</p>
+<p>汽车燃料的改善</p>
+<p>日本汽车在此方面已获技术提升，大幅改善昔日那种耗油状况。但在美国等地，或许是因油藏丰富，对于省油设计方面，至今未见有何明显改善迹象，仍旧维持过度耗油的状况。因此，该地区生产的汽车在改善燃油设计方面，具有充分发挥的余地。由于此项努力所导致的化石燃料消费削减，估计到了 2050 年，可使温室效应降低 5% 左右。<br>
+改善能源使用效率<br>
+要改善其他各种场合的能源使用效率。今日人类生活，到处都在大量使用能源，其中尤以住宅和办公室的冷暖气设备为最。因此，对于提升能源使用效率方面，仍然具有大幅改善余地，这对 2050 年为止的地球温暖化，预计可以达到 8% 左右的抑制效果。如此一来，或许可以促使生产厂商及消费者在使用能源时有所警惕，避免作出无谓的浪费。而其税金收入，则可用于森林保护和替代能源的开发方面。</p>
+<p>对化石燃料的限制</p>
+<p>任何化石燃料一经燃烧，就会排放出二氧化碳来。惟其排放量会因化石燃料种类而有不同。由于天然瓦斯的主要成分为甲烷，故其二氧化碳排放量要比煤炭、石油为低。同样是要产生一千卡的热量，煤炭必须排放相当于 0.098 公克碳量的二氧化碳；这在石油则为 0.085 公克；若是换成天然瓦斯只需排放 0.056 公克即可。<br>
+因此，有人提案依照天然瓦斯、石油、煤炭的顺序予以加重课税。譬如生产方面，要对二氧化碳排放量较高的煤炭，以能量换算，每十亿焦耳课税 0.5 美元，而对天然瓦斯则只课税 0.23 美元。亦即二氧化碳排放量愈高的化石燃料课税愈重。至于消费方面的情形亦复加此，其课税比例在煤炭订为 23%，在天然瓦斯订为 13%。<br>
+当然，现今阶段只不过是有这么一个构想而已。但若果真付诸实行，可望对于 2050 年为止的地球温暖化，提供大约 5% 的抑制效果。</p>
+<p>鼓励使用天然瓦斯</p>
+<p>鼓励使用天然瓦斯作为主要能源。因为天然瓦斯较少排放二氧化碳。日本都市也都普遍改用天然瓦斯取代液化瓦斯，此案则是希望更进一步推广这种运动。惟其抑制温暖化的效果并不太大，顶多只有 1% 的程度左右。</p>
+<p>汽机车的排气限制</p>
+<p>由于汽机车的排气中，含有大量的氮氧化物与一氧化碳，因此希望减少其排放，这可以对到 2050 年为止的温暖化，分担 2% 左右的抑制效果。</p>
+<p>鼓励使用太阳能</p>
+<p>譬如推动所谓 “阳光计划” 之类。这方面的努力能使化石燃料用量相对减少，因此对于降低温室效应具备直接效果。不过，就算积极推动此项方案，对于 2050 年为止的温暖化，只具 4% 左右的抑制效果。其效果似乎未如人们的期待。</p>
+<p>开发替代能源</p>
+<p>利用生物能源 (Biomass Energy）作为新的干净能源。亦即利用植物经由光合作用制造出来的有机物充当燃料，藉以取代石油等既有的高污染性能源。<br>
+设法挖掘海洋吸收碳的潜力<br>
+作为地球上最大的碳吸收剂载体，海洋大约吸收了人类碳排放量的三分之一，减少了大气中的含量，延缓了<br>
+气候变化。其能力很大，潜力也很大。海洋中还存在大面积的 “荒漠化” 区域，区域内海水中生物量很少，在这些区域，可设法，如利用海水温差、风能或波浪能发电，将富含营养的低温深层海水抽到海面，可大大促进浮游生物的繁殖，人为营造大量的海洋牧场，进而提高鱼、虾、贝类等的产出，它们死后，部分尸体会沉入海底，这就相当于增加了海洋吸收碳的能力。这是非常困难问题。总之那些化学能是出自太阳能非常有限无法满足人类社会向前进步的需要。<br>
+此外，温室气体源，进行分类，煤炭，石油，天然气等，都是地球表面上的植物把他们固定的固态形状以后，再被大规模地壳运动带到地下去经过长期埋藏以后演变的。其中的煤炭极有可能是植物的尸体，石油极有可能是动物的尸体。所以石油、天然气、煤炭都是绝对不可再生能源。可燃冰在太阳没有熄灭之前是可再生能源。<br>
+燃烧生物能源也会产生二氧化碳，这点固然是和化石燃料相同，不过生物能源系从大自然中不断吸取二氧化碳作为原料，故可成为重覆循环的再生能源，达到抑制二氧化碳浓度增长的效果。<br>
+“温室效应” 是指地球大气层上的一种物理特性。假若没有大气层，地球表面的平均温度是 - 18℃。这温度上的差别是由于一类名为温室气体所引致，这些气体吸收红外线辐射而影响到地球整体的能量平衡。在现况中，地面和大气层在整体上吸收太阳辐射後能平衡于释放红外线辐射到太空外。但受到温室气体的影响，大气层吸收红外线辐射的份量多过它释放出到太空外，这使地球表面温度上升，此过程可称为‘天然的温室效应’。但由于人类活动释放出大量的温室气体，结果让更多红外线辐射被折返到地面上，加强了 “温室效应” 的作用。<br>
+太阳总辐射量（240W/㎡）和红外线的释放量应要均等。其中约三分之一（103W/㎡）的太阳辐射会被反射而馀下的会被地球表面所吸收。此外，大气层的温室气体和云团吸收及再次释放出红外线辐射，使到地面更暖，高出约 33℃。<br>
+地球孕育了人类，人类也在不断地改造地球。人类的发展史，归根结底是人类艰苦奋斗的创业史。在创业过程中，人们利用各种能源赖以生存，同时也给他们带来了不同程度的破坏。有人预言，人类最终是毁灭在自己创造的文明中。“资源短缺” 已成为广大群众一个十分关注的问题。总有一天能源会被我们用尽，人类就无法生存。如今，许多人们不懂得如何珍惜仅有的能源。大量用水、用电，许多破坏臭氧层的物品也消耗飞速，排放的废气已经多得难以让人想象…… 造成这一切后果的是谁？就是我们人类。要做到节能减排，就要从小事做起，人人动起手来，创建美好的家园。以下几点为可行的建议：<br>
+一、节约电能。要注意随手关灯，可以使用高效节能灯泡。据美国的能源部门估计，使用高效节能灯泡代替传统电灯泡，就能避免四亿吨二氧化碳被释放。除了电灯，在使用其它电器方面也要注意，尽量选择低消耗节能产品，不用电器时要切断或关掉电源，冰箱则让它处于无霜状态。夏季天气不算十分炎热时，最好用扇子或电风扇代替空调。使用空调时，不要把温度调得太低，26℃左右就行了。<br>
+二、节约水资源。许多废水都可以循环使用。洗脸、洗手、洗菜、洗澡、洗衣服的水都可以收集起来擦地板、冲厕所、浇花等。淘米水则是很好的去污剂，可以留下来洗碗筷。沾了油的锅和盘子要先用用过的餐巾纸擦干净，洗起来节水有方便，还可以少用洗洁精，减少水污染。<br>
+三、节约用纸。纸张的循环再利用，可以避免从垃圾填埋地释放出来的沼气，还能少砍伐树木。据统计，回收一吨废纸能产生 800 千克的再生纸，可以少砍 17 棵大树，节约用纸就是保护森林资源，保护环境。<br>
+四、减少废气排放。交通废气和工业废气是生活废气的主要来源。我们出门尽量乘坐公共汽车或出租车，还可以骑自行车，尽量少乘坐私家车。工厂里的燃烧垃圾、生产商品等而产生的大量滚滚的浓烟弥漫在城市里。他们应该把废气经过加工和过滤，再排放出来就可以减少污染。植物可以吸收二氧化碳，然后释放出氧气，所以我们要大量的种树，尤其是在公路旁。<br>
+五、垃圾分类处理。垃圾分类可以回收宝贵的资源，同时减少填埋和焚烧垃圾所消耗的能源。例如：废纸被直接送到造纸厂，用以生产再生纸；饮料瓶、罐子和塑料等一次性物品也可以送到相关的工厂，成为再生资源；家用电器可以送到专门的厂家进行分解回收。家里可以准备不同的垃圾袋，分别收集废纸、塑料、包装盒等，每天进行垃圾分类和回收，尽量做到 “变废为宝”。全球变暖给我们敲响了警钟，地球正面临着巨大的挑战。保护地球，就是保护我们的家。让我们行动起来，节能减排，挽救地球家园的命运，维护人类的一个继续生存的未来。</p>
+<h3 id="个人想法"><a class="markdownIt-Anchor" href="#个人想法">#</a> 个人想法</h3>
+<p>我曾见过一条视频说制作了一盏灯是用叶绿素制作，可以进行光合作用，可以向这个方向尝试，一家之言</p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">樺煙君</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://kinomotosakura.net/2021/05/13/greenhouse-effect/">http://kinomotosakura.net/2021/05/13/greenhouse-effect/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">樺煙君</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E7%A7%91%E6%99%AE/">
+                                    <span class="chip bg-color">科普</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2021/05/14/dog-and-cat-recognition/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="猫狗识别">
+                        
+                        <span class="card-title">猫狗识别</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-14
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            樺煙君
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/">
+                        <span class="chip bg-color">深度学习</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/05/12/deepdream/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="DeepDream初解">
+                        
+                        <span class="card-title">DeepDream初解</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-12
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            樺煙君
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/">
+                        <span class="chip bg-color">深度学习</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+
+    <div class="container row center-align"
+         style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2019-2021</span>
+            
+            <span id="year">2019</span>
+            <a href="/about" target="_blank">樺煙君</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            
+            
+                
+            
+            
+                <span id="busuanzi_container_site_pv">
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
+                    <span id="busuanzi_value_site_pv" class="white-color"></span>
+            </span>
+            
+            
+                <span id="busuanzi_container_site_uv">
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
+                    <span id="busuanzi_value_site_uv" class="white-color"></span>
+            </span>
+            
+            <br>
+
+            <!-- 运行天数提醒. -->
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/yuban10032-xian" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:3092103825@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=3092103825" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 3092103825" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+    <a href="https://weibo.com/u/7459736189/home?wvr=5" class="tooltipped" target="_blank" data-tooltip="关注我的微博: https://weibo.com/u/7459736189/home?wvr=5" data-position="top" data-delay="50">
+        <i class="fab fa-weibo"></i>
+    </a>
+
+
+
+    <a href="https://www.zhihu.com/people/yi-wang-de-jiao-luo-86" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/yi-wang-de-jiao-luo-86" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+   
+    <script type="text/javascript"> var OriginTitile = document.title, st; 
+        document.addEventListener("visibilitychange", function () { document.hidden ? (document.title = "Σ(っ °Д °;)っ喔哟，崩溃啦！", clearTimeout(st)) : (document.title = "φ(゜▽゜*)♪咦，又好了！", st = setTimeout(function () { document.title = OriginTitile }, 3e3)) }) </script>
+
+   <script type="text/javascript">//只在桌面版网页启用特效
+var windowWidth = $(window).width();
+if (windowWidth > 768) {
+    document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+}
+</script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/rem.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true,"react":{"opacity":0.7}}});</script></body>
+
+</html>
