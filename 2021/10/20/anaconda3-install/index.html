@@ -581,17 +581,17 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>###anaconda3 安装<br>
+                <p>#anaconda3 安装<br>
 真是时隔多年的安装 anaconda3，电脑的系统空间不足误删了 anaconda，后来发现原来之前用 minconda 替换了 anaconda，这个要用就要用原版的，所以我将 miconda 卸载了，重新安装了 anaconda</p>
-<p>##anaconda3 下载<br>
+<p>#anaconda3 下载<br>
 我还记得那时候什么都不懂还是嘉鸿帮我安装的，在清华源找到 anaconda3，注意选择版本，Windows 和 Linux 不能混为一谈，我安装的是 Debin 版本的<br>
 <img src="https://ftp.bmp.ovh/imgs/2021/10/110443ed546f7ce9.png" alt=""></p>
-<p>## 安装<br>
+<p>#安装<br>
 安装的命令是要看版本的 Windows 的点击图标，基本上 Windows 的安装没有什么要注意的，只是在配置环境变量的时候要注意不要走配置错误，在系统配置将 anaconda 的路劲编辑进去，还要加上 /bin 才是完整的路径<br>
  Linux 的需要命令，首先将安装包放入需要安装的位置，不妨也行，只是我懒得在后面更改位置</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">bash</span> Anaconda3-2020.11-Linux-x86_64.sh<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>运行这条命令可以进入安装时刻，后面有询问是否安装此位置，按照你需要安装的位置判断，后面全部选择 yes 就可以了</p>
-<p>## 报错<br>
+<p>#报错<br>
 由于我是第二次安装，需要建在.bashrc 文件上的 minconda 配置删除。<br>
 我后来出现一个错误，按 conda 命令也无法执行，是因为 conda 的配置没有写入.bashrc 文件，需要在文件中写入命令</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token string">"/home/yuban/anaconda3/bin:<span class="token environment constant">$PATH</span>"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>

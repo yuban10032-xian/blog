@@ -6,7 +6,7 @@
   <link href="http://kinomotosakura.net/atom.xml" rel="self"/>
   
   <link href="http://kinomotosakura.net/"/>
-  <updated>2021-10-23T10:09:37.005Z</updated>
+  <updated>2021-10-23T10:17:02.554Z</updated>
   <id>http://kinomotosakura.net/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://kinomotosakura.net/2021/10/23/hexo-error-reporting/"/>
     <id>http://kinomotosakura.net/2021/10/23/hexo-error-reporting/</id>
     <published>2021-10-23T09:53:31.000Z</published>
-    <updated>2021-10-23T10:09:37.005Z</updated>
+    <updated>2021-10-23T10:17:02.554Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;##fatal: 无法读取远程仓库&lt;br&gt;
+    <summary type="html">&lt;p&gt;#fatal: 无法读取远程仓库&lt;br&gt;
 &lt;img src=&quot;https://ftp.bmp.ovh/imgs/2021/10/d3c31572c02aed1b.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;
 这是我的报错截图&lt;br&gt;
 视线还请不要放在 Spawn failed</summary>
@@ -47,14 +47,14 @@
     <link href="http://kinomotosakura.net/2021/10/23/selenium-install/"/>
     <id>http://kinomotosakura.net/2021/10/23/selenium-install/</id>
     <published>2021-10-22T21:33:57.000Z</published>
-    <updated>2021-10-22T22:15:05.161Z</updated>
+    <updated>2021-10-23T10:17:21.690Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;## 前言&lt;br&gt;
+    <summary type="html">&lt;p&gt;#前言&lt;br&gt;
 说实话，这次的博客是我最痛苦的，我在学习数据抓取的时候发现沐神的抓取用得失 selenium 的库，我心想着简单，就去下载了，结果还学要下载个驱动，不过连驱动也下载好的时候我竟然不知道放在哪里好了，官方文档说 /opt/bin</summary>
         
       
@@ -71,14 +71,14 @@
     <link href="http://kinomotosakura.net/2021/10/20/anaconda3-install/"/>
     <id>http://kinomotosakura.net/2021/10/20/anaconda3-install/</id>
     <published>2021-10-19T18:27:46.000Z</published>
-    <updated>2021-10-20T17:46:51.605Z</updated>
+    <updated>2021-10-23T10:18:11.330Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;###anaconda3 安装&lt;br&gt;
+    <summary type="html">&lt;p&gt;#anaconda3 安装&lt;br&gt;
 真是时隔多年的安装 anaconda3，电脑的系统空间不足误删了 anaconda，后来发现原来之前用 minconda 替换了 anaconda，这个要用就要用原版的，所以我将 miconda 卸载了，重新安装了</summary>
         
       
