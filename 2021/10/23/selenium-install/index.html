@@ -581,14 +581,14 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>#前言<br>
-说实话，这次的博客是我最痛苦的，我在学习数据抓取的时候发现沐神的抓取用得失 selenium 的库，我心想着简单，就去下载了，结果还学要下载个驱动，不过连驱动也下载好的时候我竟然不知道放在哪里好了，官方文档说 /opt/bin 中会有，结果没有，厚爱弄了好久才发现其实横简单</p>
-<p>#安装</p>
+                <h1 id="前言"><a class="markdownIt-Anchor" href="#前言">#</a> 前言</h1>
+<p>说实话，这次的博客是我最痛苦的，我在学习数据抓取的时候发现沐神的抓取用得失 selenium 的库，我心想着简单，就去下载了，结果还学要下载个驱动，不过连驱动也下载好的时候我竟然不知道放在哪里好了，官方文档说 /opt/bin 中会有，结果没有，厚爱弄了好久才发现其实横简单</p>
+<h1 id="安装"><a class="markdownIt-Anchor" href="#安装">#</a> 安装</h1>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ pip <span class="token function">install</span> selenium 
 $ conda <span class="token function">install</span> selenium<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>pip 下载假如有依赖问题解决不了可以使用 conda，只是说匹配更新速度快资源全</p>
-<p>#驱动<br>
-不同的浏览器是需要不同的驱动我目前使用得失 Chrome 的驱动，不过无论如何都是先要查找浏览器的版本信息，比如 Chrome 的是执行命令</p>
+<h1 id="驱动"><a class="markdownIt-Anchor" href="#驱动">#</a> 驱动</h1>
+<p>不同的浏览器是需要不同的驱动我目前使用得失 Chrome 的驱动，不过无论如何都是先要查找浏览器的版本信息，比如 Chrome 的是执行命令</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ chrome://version/<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>而 edge 则是</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">edge://settings/help<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
@@ -600,8 +600,8 @@ $ conda <span class="token function">install</span> selenium<span aria-hidden="t
 <p>结束后可以运行一下</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ chromedriver<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p><img src="https://ftp.bmp.ovh/imgs/2021/10/76bdd2b5fc72ce81.png" alt=""></p>
-<p>#运行<br>
-闲来没事可以运行以下代码，我试过运行的时候说 IPV6 被占用，我也不清楚被谁占用了，只要重启就解决了<br>
+<h1 id="运行"><a class="markdownIt-Anchor" href="#运行">#</a> 运行</h1>
+<p>闲来没事可以运行以下代码，我试过运行的时候说 IPV6 被占用，我也不清楚被谁占用了，只要重启就解决了<br>
 给个代码运行一下吧</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">from</span> selenium <span class="token keyword">import</span> webdriver
 
