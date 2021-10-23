@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="安装selenium库, Python,深度學習,Java,Linux等">
+    <meta name="keywords" content="Hexo错误报告, Python,深度學習,Java,Linux等">
     <meta name="description" content="前進吧，少年！">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>安装selenium库 | 這是樺煙君的領域！</title>
+    <title>Hexo错误报告 | 這是樺煙君的領域！</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -420,12 +420,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">安装selenium库</h1>
+                    <h1 class="description center-align post-title">Hexo错误报告</h1>
                 </div>
             </div>
         </div>
@@ -541,8 +541,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/python/">
-                                <span class="chip bg-color">python</span>
+                            <a href="/tags/Hexo/">
+                                <span class="chip bg-color">Hexo</span>
                             </a>
                         
                     </div>
@@ -581,32 +581,19 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>## 前言<br>
-说实话，这次的博客是我最痛苦的，我在学习数据抓取的时候发现沐神的抓取用得失 selenium 的库，我心想着简单，就去下载了，结果还学要下载个驱动，不过连驱动也下载好的时候我竟然不知道放在哪里好了，官方文档说 /opt/bin 中会有，结果没有，厚爱弄了好久才发现其实横简单</p>
-<p>## 安装</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ pip <span class="token function">install</span> selenium 
-$ conda <span class="token function">install</span> selenium<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<p>pip 下载假如有依赖问题解决不了可以使用 conda，只是说匹配更新速度快资源全</p>
-<p>## 驱动<br>
-不同的浏览器是需要不同的驱动我目前使用得失 Chrome 的驱动，不过无论如何都是先要查找浏览器的版本信息，比如 Chrome 的是执行命令</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ chrome://version/<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>而 edge 则是</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">edge://settings/help<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>找到版本信息后上网下载驱动，我所看到的是我下载的网站，虽然官方也有，但是我看不懂，所以我在这里贴出网址</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ http://npm.taobao.org/mirrors/chromedriver/<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>根据浏览器的版本信息选择下载那个，我的浏览器是 94.0.4606.81，所以我找最近的是 v94.0.4606.61，点进去后根据系统下载<br>
-最后是放的位置，我个人感觉还是放在 /usr/bin 中最合适，虽然我还没有仔细研究过 Linux 的运行，千万还要记住配置文件.bashrc</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/bin/chromedriver_linux64 <span class="token operator">&gt;&gt;</span> ~/.profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>结束后可以运行一下</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ chromedriver<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/10/76bdd2b5fc72ce81.png" alt=""></p>
-<p>## 运行<br>
-闲来没事可以运行以下代码，我试过运行的时候说 IPV6 被占用，我也不清楚被谁占用了，只要重启就解决了<br>
-给个代码运行一下吧</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">from</span> selenium <span class="token keyword">import</span> webdriver
-
-driver <span class="token operator">=</span> webdriver<span class="token punctuation">.</span>Chrome<span class="token punctuation">(</span><span class="token punctuation">)</span>
-driver<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">'http://www.kinomotosakura.net'</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+                <p>##fatal: 无法读取远程仓库<br>
+<img src="https://ftp.bmp.ovh/imgs/2021/10/d3c31572c02aed1b.png" alt=""><br>
+这是我的报错截图<br>
+视线还请不要放在 Spawn failed 上，因为那不是真正的错误，上面的 "fatal: 无法读取远程仓库。" 才是真正的错误<br>
+解决方法如下</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">ssh</span> -T git@github.com<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>这个报错是由于 github 没有接收到而产生的，所以需要重新更换 ssh 公钥，这个命令是查看报错原因<br>
+由于需要更换公钥，建议使用以下命令再更换公公钥</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ ssh-keygen -t rsa -C <span class="token string">"你的邮箱"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>打开 github，在头像下面找到设置，进去点击 SSH，更换公钥，公钥在～/.ssh/id_rsa.pub 中，id_rsa 则是私钥<br>
+更换完后，使用命令</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">ssh</span> -T git@github.com<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>就会提示可以了</p>
 
                 
             </div>
@@ -633,7 +620,7 @@ driver<span class="token punctuation">.</span>get<span class="token punctuation"
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://kinomotosakura.net/2021/10/23/selenium-install/">http://kinomotosakura.net/2021/10/23/selenium-install/</a>
+                    <a href="http://kinomotosakura.net/2021/10/23/hexo-error-reporting/">http://kinomotosakura.net/2021/10/23/hexo-error-reporting/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -671,8 +658,8 @@ driver<span class="token punctuation">.</span>get<span class="token punctuation"
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/python/">
-                                    <span class="chip bg-color">python</span>
+                                <a href="/tags/Hexo/">
+                                    <span class="chip bg-color">Hexo</span>
                                 </a>
                             
                         </div>
@@ -844,9 +831,10 @@ driver<span class="token punctuation">.</span>get<span class="token punctuation"
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/10/23/hexo-error-reporting/">
                     <div class="card-image">
@@ -864,9 +852,9 @@ driver<span class="token punctuation">.</span>get<span class="token punctuation"
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-10-23
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-23
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -875,6 +863,7 @@ driver<span class="token punctuation">.</span>get<span class="token punctuation"
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -893,13 +882,13 @@ driver<span class="token punctuation">.</span>get<span class="token punctuation"
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/20/anaconda3-install/">
+                <a href="/2021/10/23/selenium-install/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="anaconda3安装">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="安装selenium库">
                         
-                        <span class="card-title">anaconda3安装</span>
+                        <span class="card-title">安装selenium库</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -910,7 +899,7 @@ driver<span class="token punctuation">.</span>get<span class="token punctuation"
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-20
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-23
                             </span>
                         <span class="publish-author">
                             
@@ -923,8 +912,8 @@ driver<span class="token punctuation">.</span>get<span class="token punctuation"
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%95%99%E7%A8%8B/">
-                        <span class="chip bg-color">教程</span>
+                    <a href="/tags/python/">
+                        <span class="chip bg-color">python</span>
                     </a>
                     
                 </div>

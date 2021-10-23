@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Hexo错误报告</title>
+      <link href="2021/10/23/hexo-error-reporting/"/>
+      <url>2021/10/23/hexo-error-reporting/</url>
+      
+        <content type="html"><![CDATA[<p>##fatal: 无法读取远程仓库<br><img src="https://ftp.bmp.ovh/imgs/2021/10/d3c31572c02aed1b.png" alt=""><br>这是我的报错截图<br>视线还请不要放在 Spawn failed 上，因为那不是真正的错误，上面的 "fatal: 无法读取远程仓库。" 才是真正的错误<br>解决方法如下</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">ssh</span> -T git@github.com<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>这个报错是由于 github 没有接收到而产生的，所以需要重新更换 ssh 公钥，这个命令是查看报错原因<br>由于需要更换公钥，建议使用以下命令再更换公公钥</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ ssh-keygen -t rsa -C <span class="token string">"你的邮箱"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>打开 github，在头像下面找到设置，进去点击 SSH，更换公钥，公钥在～/.ssh/id_rsa.pub 中，id_rsa 则是私钥<br>更换完后，使用命令</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">ssh</span> -T git@github.com<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>就会提示可以了</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>安装selenium库</title>
       <link href="2021/10/23/selenium-install/"/>
       <url>2021/10/23/selenium-install/</url>
