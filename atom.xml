@@ -6,7 +6,7 @@
   <link href="http://kinomotosakura.net/atom.xml" rel="self"/>
   
   <link href="http://kinomotosakura.net/"/>
-  <updated>2021-10-30T14:27:08.825Z</updated>
+  <updated>2021-10-31T18:05:02.792Z</updated>
   <id>http://kinomotosakura.net/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>2021年10月29日政治见闻</title>
+    <title>Re库学习笔记</title>
+    <link href="http://kinomotosakura.net/2021/10/31/re-library-learning-notes/"/>
+    <id>http://kinomotosakura.net/2021/10/31/re-library-learning-notes/</id>
+    <published>2021-10-30T16:18:35.000Z</published>
+    <updated>2021-10-31T18:05:02.792Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;re库正则表达式&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#re库正则表达式&quot;&gt;#&lt;/a&gt; Re 库 —— 正则表达式&lt;/h2&gt;
+&lt;p&gt;re 库是一个对搜索十分便利的表达工具，但是 re</summary>
+        
+      
+    
+    
+    
+    
+    <category term="爬虫" scheme="http://kinomotosakura.net/tags/%E7%88%AC%E8%99%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2021年10月政治见闻</title>
     <link href="http://kinomotosakura.net/2021/10/29/political-news-on-october-29-2021/"/>
     <id>http://kinomotosakura.net/2021/10/29/political-news-on-october-29-2021/</id>
     <published>2021-10-29T13:28:31.000Z</published>
-    <updated>2021-10-30T14:27:08.825Z</updated>
+    <updated>2021-10-31T18:04:54.388Z</updated>
     
     
       
@@ -455,27 +479,6 @@
     <published>2021-05-09T14:54:44.000Z</published>
     <updated>2021-05-09T14:54:45.006Z</updated>
     
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://kinomotosakura.net/2021/05/08/hello-world/"/>
-    <id>http://kinomotosakura.net/2021/05/08/hello-world/</id>
-    <published>2021-05-08T13:14:36.240Z</published>
-    <updated>2021-05-09T16:00:14.895Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
     
     
     
