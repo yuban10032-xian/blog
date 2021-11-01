@@ -6,7 +6,7 @@
   <link href="http://kinomotosakura.net/atom.xml" rel="self"/>
   
   <link href="http://kinomotosakura.net/"/>
-  <updated>2021-10-31T18:05:02.792Z</updated>
+  <updated>2021-11-01T15:34:40.948Z</updated>
   <id>http://kinomotosakura.net/</id>
   
   <author>
@@ -17,18 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2021年11月政治见闻</title>
+    <link href="http://kinomotosakura.net/2021/11/01/political-news-in-november-2021/"/>
+    <id>http://kinomotosakura.net/2021/11/01/political-news-in-november-2021/</id>
+    <published>2021-10-31T18:08:35.000Z</published>
+    <updated>2021-11-01T15:34:40.948Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;2021年11月1日&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#2021年11月1日&quot;&gt;#&lt;/a&gt; 2021 年 11 月 1 日&lt;/h2&gt;
+&lt;p&gt;1、阿富汗塔利班最高领导人阿洪扎达在坎大哈一学校露面，系 2016</summary>
+        
+      
+    
+    
+    
+    
+    <category term="政治" scheme="http://kinomotosakura.net/tags/%E6%94%BF%E6%B2%BB/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Re库学习笔记</title>
     <link href="http://kinomotosakura.net/2021/10/31/re-library-learning-notes/"/>
     <id>http://kinomotosakura.net/2021/10/31/re-library-learning-notes/</id>
     <published>2021-10-30T16:18:35.000Z</published>
-    <updated>2021-10-31T18:05:02.792Z</updated>
+    <updated>2021-11-01T15:34:50.616Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;re库正则表达式&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#re库正则表达式&quot;&gt;#&lt;/a&gt; Re 库 —— 正则表达式&lt;/h2&gt;
+    <summary type="html">&lt;h3 id=&quot;re库正则表达式&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#re库正则表达式&quot;&gt;#&lt;/a&gt; Re 库 —— 正则表达式&lt;/h3&gt;
 &lt;p&gt;re 库是一个对搜索十分便利的表达工具，但是 re</summary>
         
       
@@ -42,8 +66,8 @@
   
   <entry>
     <title>2021年10月政治见闻</title>
-    <link href="http://kinomotosakura.net/2021/10/29/political-news-on-october-29-2021/"/>
-    <id>http://kinomotosakura.net/2021/10/29/political-news-on-october-29-2021/</id>
+    <link href="http://kinomotosakura.net/2021/10/29/political-news-in-october-2021/"/>
+    <id>http://kinomotosakura.net/2021/10/29/political-news-in-october-2021/</id>
     <published>2021-10-29T13:28:31.000Z</published>
     <updated>2021-10-31T18:04:54.388Z</updated>
     
@@ -469,19 +493,6 @@
     
     
     <category term="日常" scheme="http://kinomotosakura.net/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>My New Post</title>
-    <link href="http://kinomotosakura.net/2021/05/09/my-new-post/"/>
-    <id>http://kinomotosakura.net/2021/05/09/my-new-post/</id>
-    <published>2021-05-09T14:54:44.000Z</published>
-    <updated>2021-05-09T14:54:45.006Z</updated>
-    
-    
-    
-    
     
   </entry>
   
