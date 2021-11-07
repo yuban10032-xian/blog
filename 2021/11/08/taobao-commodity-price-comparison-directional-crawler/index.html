@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Re库学习笔记, Python,深度學習,Java,Linux等">
+    <meta name="keywords" content="淘宝商品比价定向爬虫, Python,深度學習,Java,Linux等">
     <meta name="description" content="前進吧，少年！">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Re库学习笔记 | 這是樺煙君的領域！</title>
+    <title>淘宝商品比价定向爬虫 | 這是樺煙君的領域！</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -420,12 +420,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Re库学习笔记</h1>
+                    <h1 class="description center-align post-title">淘宝商品比价定向爬虫</h1>
                 </div>
             </div>
         </div>
@@ -557,7 +557,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-10-31
+                    2021-11-08
                 </div>
                 
 
@@ -581,54 +581,54 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="re库正则表达式"><a class="markdownIt-Anchor" href="#re库正则表达式">#</a> Re 库 —— 正则表达式</h3>
-<p>re 库是一个对搜索十分便利的表达工具，但是 re 库的表达符号确实是让人有些头大，不过这是最简便的搜索符号，对于这个库我们也称其为正则表达式库</p>
-<h2 id="特殊字符"><a class="markdownIt-Anchor" href="#特殊字符">#</a> 特殊字符</h2>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/11/a461d7bd84ce7732.png" alt=""><br>
-<img src="https://ftp.bmp.ovh/imgs/2021/11/f84f08fea4d1c69e.png" alt=""><br>
-"." 这个操作符是正则表达式的第一个操作符，但是基本上找不到实例所以只能自己构建一个</p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/11/5fe074672639bfa3.png" alt=""><br>
-<img src="https://ftp.bmp.ovh/imgs/2021/11/1c1946b1e6360b3f.png" alt=""><br>
-"[]" 这个操作符的取值范围是在 [1-9, a-z, A-Z] 中的，如果想要获取其中一个范围的值就要说明值的范围</p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/11/5cf9ba19ac2bf0f8.png" alt=""><br>
-<img src="https://ftp.bmp.ovh/imgs/2021/11/5d0292f1fbcb9a4b.png" alt=""><br>
-"[^]" 这个操作符是一个获取排除字符以外的所有字符</p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/11/b48b4cb3bd2191af.png" alt=""><br>
-<img src="https://ftp.bmp.ovh/imgs/2021/11/2813e2c32a84d70d.png" alt=""><br>
-"*+?" 这三个操作符其实都是查找拓展字符</p>
-<p><img src="https://files.catbox.moe/8013fm.png" alt=""><br>
-<img src="https://files.catbox.moe/zlslht.png" alt=""><br>
-"|“我在这上面犯了一个常见的错误<br>
-<img src="https://files.catbox.moe/3c1a2n.png" alt=""><br>
-在这里原来的两个词’abc’与’def’被我混合在一起，结果报错，这是因为在正则表达式中要搜索的词必须精准，词不能拆开<br>
-另外使用”|" 操作符时要注意，查找的词是按照匹配的字符串的开头查找，这与正则表达式无关，与 Re 库的函数有关</p>
-<p><img src="https://files.catbox.moe/2pmn86.png" alt=""><br>
-<img src="https://files.catbox.moe/zxua5u.png" alt=""></p>
-<p><img src="https://files.catbox.moe/it1bgf.png" alt=""><br>
-<img src="https://files.catbox.moe/f3cb4p.png" alt=""></p>
-<p><img src="https://files.catbox.moe/89i1xs.png" alt=""><br>
-<img src="https://files.catbox.moe/mfs1mw.png" alt=""><br>
-报错原因是因为 kin 没有在匹配字段的开头，同理可知 “k^in” 也是会报同样的错误</p>
-<p><img src="https://files.catbox.moe/pq3u5m.png" alt=""><br>
-<img src="https://files.catbox.moe/k12uj2.png" alt=""><br>
-由上图可以知道’$' 操作符只能放在正则表达式的末尾</p>
-<p><img src="https://files.catbox.moe/tmuswv.png" alt=""><br>
-<img src="https://files.catbox.moe/eo6stl.png" alt=""></p>
-<p><img src="https://files.catbox.moe/w3125m.png" alt=""><br>
-<img src="https://files.catbox.moe/k2lk41.png" alt=""></p>
-<p>举一些常见的例子<br>
-<img src="https://files.catbox.moe/cd02yv.png" alt=""></p>
-<h2 id="函数"><a class="markdownIt-Anchor" href="#函数">#</a> 函数</h2>
-<p><img src="https://files.catbox.moe/jc7l87.png" alt=""><br>
-<img src="https://files.catbox.moe/skbe4d.png" alt=""></p>
-<h2 id="另"><a class="markdownIt-Anchor" href="#另">#</a> 另</h2>
-<p><img src="https://files.catbox.moe/9ick86.png" alt=""><br>
-re.compile () 函数其实是表示正色表达式的函数，故之前在函数中发的正则表达式可以单独拿出来写</p>
-<h2 id="属性"><a class="markdownIt-Anchor" href="#属性">#</a> 属性</h2>
-<p><img src="https://files.catbox.moe/cyqc46.png" alt=""><br>
-<img src="https://files.catbox.moe/b3gxp2.png" alt=""></p>
-<h2 id="贪婪匹配"><a class="markdownIt-Anchor" href="#贪婪匹配">#</a> 贪婪匹配</h2>
-<p><img src="https://files.catbox.moe/7y3mud.png" alt=""></p>
+                <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> requests
+<span class="token keyword">import</span> re
+ 
+<span class="token keyword">def</span> <span class="token function">getHTMLText</span><span class="token punctuation">(</span>url<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">try</span><span class="token punctuation">:</span>
+        header <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'user-agent'</span><span class="token punctuation">:</span><span class="token string">'Mozilla/5.0'</span><span class="token punctuation">,</span><span class="token string">'cookie'</span><span class="token punctuation">:</span><span class="token string">'_m_h5_tk=c967fc51e8e1be2ea273738318087fba_1615087691291; _m_h5_tk_enc=e43d845e680711fb702036ec903fbf1b; cna=rQIUFC4MeykCAXWezoX/kvkK; _samesite_flag_=true; cookie2=1f06301901b99776678e315a5f91c08d; t=0d60659e3364db9b90f6619a7b8fbec3; _tb_token_=e7e59d7b3e5b5; xlly_s=1; sgcookie=E100IDdt7LAee785l6D9V66gtL%2BondvYcKFemKd7A5xIECRsBtaooUmZfJ%2BNm%2BsAjsmCS6YcCeQTETV0Pd6CoW8g%2BA%3D%3D; unb=2756181972; uc3=nk2=UUplZ%2FrkfPDzUbZv3wZs4HMifGNgyA%3D%3D&amp;lg2=Vq8l%2BKCLz3%2F65A%3D%3D&amp;id2=UU8NZ4us0V75Og%3D%3D&amp;vt3=F8dCuAVlCDU0r8yhNZw%3D; csg=99427658; lgc=2246706042tt2605794985; cookie17=UU8NZ4us0V75Og%3D%3D; dnk=2246706042tt2605794985; skt=d69cbf0ccae72060; existShop=MTYxNTA4MDE2NQ%3D%3D; uc4=nk4=0%40U2gvKJd4FqsMhKlRmFth%2Fz16WDMWTYdIsM3SyFNuXEJs&amp;id4=0%40U22KV%2FFnQu8l5tai43GTQWBKetYF; tracknick=2246706042tt2605794985; _cc_=U%2BGCWk%2F7og%3D%3D; _l_g_=Ug%3D%3D; sg=523; _nk_=2246706042tt2605794985; cookie1=B0avHc9MPAvKA8lpcJQ%2BtOvjSox%2B%2B6Z1UssydYYGRD4%3D; enc=FNLy%2BzwlKhrxLhDoFhdtgJm9dHHki5YCRyb9rHcBSedQxnIUOT8%2F5V6DE9C0RiM0JwsQfwdGMuLYr0B0sDAomA%3D%3D; mt=ci=37_1; thw=cn; hng=CN%7Czh-CN%7CCNY%7C156; v=0; _uab_collina=161508316930660010822439; x5sec=7b227365617263686170703b32223a223137376231663933376132643434666265326436386439346466623965653539434a2f746b4949474549322b6e397a302b65663435774561444449334e5459784f4445354e7a49374d54436e68594b652f502f2f2f2f3842227d; JSESSIONID=A4E6B883DAE4F6D4F5A7B102602C330D; l=eBgLeVk7QUZ2jJ4tBOfwlurza77OpIRfjuPzaNbMiOCP91Ce5sDAW6N8u4LwCnhVnswDR3PLMXI8B-L7cyUBC1fm22YCgsDKFdLh.; tfstk=cHDVBS4fhKpVo-e69-wN5crbLBUAZCPgTTrTibmsifAXNbNciMbTV_N74kUpESf..; isg=BJWVwz9sWZC1T0NvF2FmhXffpJFPkkmkIkrGaxc6b4xbbrRg3-Z2dCQkOXJYzWFc; uc1=cookie15=U%2BGCWk%2F75gdr5Q%3D%3D&amp;cookie14=Uoe1hxn7PG87JQ%3D%3D&amp;cookie16=URm48syIJ1yk0MX2J7mAAEhTuw%3D%3D&amp;existShop=false&amp;pas=0&amp;cookie21=VT5L2FSpccLuJBreK%2BBd'</span><span class="token punctuation">}</span>
+        
+        r <span class="token operator">=</span> requests<span class="token punctuation">.</span>get<span class="token punctuation">(</span>url<span class="token punctuation">,</span>headers <span class="token operator">=</span> header<span class="token punctuation">,</span>timeout <span class="token operator">=</span> <span class="token number">30</span><span class="token punctuation">)</span>
+        r<span class="token punctuation">.</span>raise_for_status<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        r<span class="token punctuation">.</span>encoding <span class="token operator">=</span> r<span class="token punctuation">.</span>apparent_encoding
+        <span class="token keyword">return</span> r<span class="token punctuation">.</span>text
+    <span class="token keyword">except</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token string">""</span>
+ 
+<span class="token keyword">def</span> <span class="token function">parsePage</span><span class="token punctuation">(</span>ilt<span class="token punctuation">,</span>html<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">try</span><span class="token punctuation">:</span>
+        plt <span class="token operator">=</span> re<span class="token punctuation">.</span>findall<span class="token punctuation">(</span><span class="token string">r'\"view_price\"\:\"[\d\.]*\"'</span><span class="token punctuation">,</span>html<span class="token punctuation">)</span>
+        tlt <span class="token operator">=</span> re<span class="token punctuation">.</span>findall<span class="token punctuation">(</span><span class="token string">r'\"raw_title\"\:\".*?\"'</span><span class="token punctuation">,</span>html<span class="token punctuation">)</span> <span class="token comment"># 最小匹配</span>
+        <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>plt<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            price <span class="token operator">=</span> <span class="token builtin">eval</span><span class="token punctuation">(</span>plt<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">':'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+            title <span class="token operator">=</span> <span class="token builtin">eval</span><span class="token punctuation">(</span>tlt<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">':'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+            ilt<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token punctuation">[</span>price<span class="token punctuation">,</span>title<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token keyword">except</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span>
+ 
+<span class="token keyword">def</span> <span class="token function">printGoodsList</span><span class="token punctuation">(</span>ilt<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    tplt <span class="token operator">=</span> <span class="token string">"{:4}\t{:8}\t{:16}"</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>tplt<span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span><span class="token string">"序号"</span><span class="token punctuation">,</span><span class="token string">"价格"</span><span class="token punctuation">,</span><span class="token string">"商品名称"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    count <span class="token operator">=</span> <span class="token number">0</span>
+    <span class="token keyword">for</span> g <span class="token keyword">in</span> ilt<span class="token punctuation">:</span>
+        count <span class="token operator">=</span> count <span class="token operator">+</span> <span class="token number">1</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span>tplt<span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>count<span class="token punctuation">,</span>g<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>g<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+ 
+<span class="token keyword">def</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    goods <span class="token operator">=</span> <span class="token string">'书包'</span>
+    depth <span class="token operator">=</span> <span class="token number">2</span>
+    start_url <span class="token operator">=</span> <span class="token string">'https://s.taobao.com/search?q='</span> <span class="token operator">+</span> goods
+    infoList <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>depth<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">try</span><span class="token punctuation">:</span>
+            url <span class="token operator">=</span> start_url <span class="token operator">+</span> <span class="token string">'&amp;s='</span> <span class="token operator">+</span> <span class="token builtin">str</span><span class="token punctuation">(</span><span class="token number">48</span> <span class="token operator">*</span> i<span class="token punctuation">)</span>
+            html <span class="token operator">=</span> getHTMLText<span class="token punctuation">(</span>url<span class="token punctuation">)</span>
+            parsePage<span class="token punctuation">(</span>infoList<span class="token punctuation">,</span>html<span class="token punctuation">)</span>
+        <span class="token keyword">except</span><span class="token punctuation">:</span>
+            <span class="token keyword">continue</span>
+    printGoodsList<span class="token punctuation">(</span>infoList<span class="token punctuation">)</span>
+ 
+main<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
                 
             </div>
@@ -655,7 +655,7 @@ re.compile () 函数其实是表示正色表达式的函数，故之前在函数
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://kinomotosakura.net/2021/10/31/re-library-learning-notes/">http://kinomotosakura.net/2021/10/31/re-library-learning-notes/</a>
+                    <a href="http://kinomotosakura.net/2021/11/08/taobao-commodity-price-comparison-directional-crawler/">http://kinomotosakura.net/2021/11/08/taobao-commodity-price-comparison-directional-crawler/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -866,9 +866,10 @@ re.compile () 函数其实是表示正色表达式的函数，故之前在函数
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/11/08/taobao-commodity-price-comparison-directional-crawler/">
                     <div class="card-image">
@@ -886,9 +887,9 @@ re.compile () 函数其实是表示正色表达式的函数，故之前在函数
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-11-08
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-08
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -897,6 +898,7 @@ re.compile () 函数其实是表示正色表达式的函数，故之前在函数
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -915,13 +917,13 @@ re.compile () 函数其实是表示正色表达式的函数，故之前在函数
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/23/hexo-error-reporting/">
+                <a href="/2021/10/31/re-library-learning-notes/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Hexo错误报告">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Re库学习笔记">
                         
-                        <span class="card-title">Hexo错误报告</span>
+                        <span class="card-title">Re库学习笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -932,7 +934,7 @@ re.compile () 函数其实是表示正色表达式的函数，故之前在函数
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-23
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-31
                             </span>
                         <span class="publish-author">
                             
@@ -945,8 +947,8 @@ re.compile () 函数其实是表示正色表达式的函数，故之前在函数
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo/">
-                        <span class="chip bg-color">Hexo</span>
+                    <a href="/tags/%E7%88%AC%E8%99%AB/">
+                        <span class="chip bg-color">爬虫</span>
                     </a>
                     
                 </div>
