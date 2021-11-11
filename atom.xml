@@ -6,7 +6,7 @@
   <link href="http://kinomotosakura.net/atom.xml" rel="self"/>
   
   <link href="http://kinomotosakura.net/"/>
-  <updated>2021-11-07T20:28:11.873Z</updated>
+  <updated>2021-11-11T12:05:08.746Z</updated>
   <id>http://kinomotosakura.net/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Scrapy库学习笔记</title>
+    <link href="http://kinomotosakura.net/2021/11/11/scrapy-library-learning-notes/"/>
+    <id>http://kinomotosakura.net/2021/11/11/scrapy-library-learning-notes/</id>
+    <published>2021-11-11T12:02:25.000Z</published>
+    <updated>2021-11-11T12:05:08.746Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;scrapy用法&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#scrapy用法&quot;&gt;#&lt;/a&gt; Scrapy 用法&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://files.catbox.moe/fxy2ld.png&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="爬虫" scheme="http://kinomotosakura.net/tags/%E7%88%AC%E8%99%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>淘宝商品比价定向爬虫</title>
@@ -469,19 +493,6 @@
     
     
     <category term="日常" scheme="http://kinomotosakura.net/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>My New Post</title>
-    <link href="http://kinomotosakura.net/2021/05/09/my-new-post/"/>
-    <id>http://kinomotosakura.net/2021/05/09/my-new-post/</id>
-    <published>2021-05-09T14:54:44.000Z</published>
-    <updated>2021-05-09T14:54:45.006Z</updated>
-    
-    
-    
-    
     
   </entry>
   

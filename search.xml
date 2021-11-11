@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Scrapy库学习笔记</title>
+      <link href="2021/11/11/scrapy-library-learning-notes/"/>
+      <url>2021/11/11/scrapy-library-learning-notes/</url>
+      
+        <content type="html"><![CDATA[<h2 id="scrapy用法"><a class="markdownIt-Anchor" href="#scrapy用法">#</a> Scrapy 用法</h2><p><img src="https://files.catbox.moe/fxy2ld.png" alt=""></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 爬虫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>淘宝商品比价定向爬虫</title>
       <link href="2021/11/08/taobao-commodity-price-comparison-directional-crawler/"/>
       <url>2021/11/08/taobao-commodity-price-comparison-directional-crawler/</url>
