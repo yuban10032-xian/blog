@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Wacom驱动安装</title>
+      <link href="2021/11/22/wacom-driver-installation/"/>
+      <url>2021/11/22/wacom-driver-installation/</url>
+      
+        <content type="html"><![CDATA[<h3 id="wacom驱动安装"><a class="markdownIt-Anchor" href="#wacom驱动安装">#</a> Wacom 驱动安装</h3><h2 id="认识wacom"><a class="markdownIt-Anchor" href="#认识wacom">#</a> 认识 Wacom</h2><p>Wacom 是一个业内认可的生产数位板、数位屏等专业设备的品牌，Wacom 的驱动只支持 Windows/mac 两个系统，由于我只有 linux 系统所以这次的驱动安装是 linuxwacom 驱动</p><h2 id="wacom驱动安装-2"><a class="markdownIt-Anchor" href="#wacom驱动安装-2">#</a> Wacom 驱动安装</h2><p>在 githu.com 上的搜索框里搜索 linuxwacom，克隆在文件夹里，看 linuxwacom 下的教程安装，装完后右下角的导航栏是没有安装完的图标的，建议最后安装 Krita 来进行数位板的操控</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Scrapy库学习笔记</title>
       <link href="2021/11/11/scrapy-library-learning-notes/"/>
       <url>2021/11/11/scrapy-library-learning-notes/</url>

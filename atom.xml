@@ -6,7 +6,7 @@
   <link href="http://kinomotosakura.net/atom.xml" rel="self"/>
   
   <link href="http://kinomotosakura.net/"/>
-  <updated>2021-11-13T07:24:26.256Z</updated>
+  <updated>2021-11-22T15:03:26.480Z</updated>
   <id>http://kinomotosakura.net/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Wacom驱动安装</title>
+    <link href="http://kinomotosakura.net/2021/11/22/wacom-driver-installation/"/>
+    <id>http://kinomotosakura.net/2021/11/22/wacom-driver-installation/</id>
+    <published>2021-11-22T14:08:03.000Z</published>
+    <updated>2021-11-22T15:03:26.480Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;wacom驱动安装&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#wacom驱动安装&quot;&gt;#&lt;/a&gt; Wacom 驱动安装&lt;/h3&gt;
+&lt;h2 id=&quot;认识wacom&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="教程" scheme="http://kinomotosakura.net/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Scrapy库学习笔记</title>
@@ -470,29 +494,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>Hello world!</title>
-    <link href="http://kinomotosakura.net/2021/05/09/hello-world/"/>
-    <id>http://kinomotosakura.net/2021/05/09/hello-world/</id>
-    <published>2021-05-09T15:53:13.000Z</published>
-    <updated>2021-05-09T16:25:28.090Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;這是我的第一個博客搞了三天週五到週日從一無所知的小白到會抄代碼的新人我覺得是學會了很多我從想用wordpress到被大佬指點使用hexo我真是太難了&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="日常" scheme="http://kinomotosakura.net/tags/%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   
