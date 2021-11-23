@@ -6,7 +6,7 @@
   <link href="http://kinomotosakura.net/atom.xml" rel="self"/>
   
   <link href="http://kinomotosakura.net/"/>
-  <updated>2021-11-22T15:03:26.480Z</updated>
+  <updated>2021-11-23T15:45:20.844Z</updated>
   <id>http://kinomotosakura.net/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>构建Linux电脑硬件配置</title>
+    <link href="http://kinomotosakura.net/2021/11/23/building-linux-computer-hardware-configuration/"/>
+    <id>http://kinomotosakura.net/2021/11/23/building-linux-computer-hardware-configuration/</id>
+    <published>2021-11-23T15:08:21.000Z</published>
+    <updated>2021-11-23T15:45:20.844Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;我所需的linux电脑构建&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#我所需的linux电脑构建&quot;&gt;#&lt;/a&gt; 我所需的 Linux 电脑构建&lt;/h3&gt;
+&lt;h2 id=&quot;配置&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="电脑" scheme="http://kinomotosakura.net/tags/%E7%94%B5%E8%84%91/"/>
+    
+  </entry>
   
   <entry>
     <title>Wacom驱动安装</title>
@@ -473,27 +497,6 @@
     
     
     <category term="教程" scheme="http://kinomotosakura.net/tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://kinomotosakura.net/2021/05/10/test/"/>
-    <id>http://kinomotosakura.net/2021/05/10/test/</id>
-    <published>2021-05-09T17:26:19.000Z</published>
-    <updated>2021-05-09T17:26:53.667Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;test&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#test&quot;&gt;#&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
     
   </entry>
   

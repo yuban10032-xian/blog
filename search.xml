@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>构建Linux电脑硬件配置</title>
+      <link href="2021/11/23/building-linux-computer-hardware-configuration/"/>
+      <url>2021/11/23/building-linux-computer-hardware-configuration/</url>
+      
+        <content type="html"><![CDATA[<h3 id="我所需的linux电脑构建"><a class="markdownIt-Anchor" href="#我所需的linux电脑构建">#</a> 我所需的 Linux 电脑构建</h3><h2 id="配置"><a class="markdownIt-Anchor" href="#配置">#</a> 配置</h2><p>由于我要构建的是一个小型的 linux 系统兼服务器，所以我问也无需制造一个小型企业或是学校需要的服务器硬件配置，在《鸟叔的私房菜》中我们也已看到鸟叔对电脑的配置有一定的说明，现在我要做的是在网上找到我要的配置，标出型号和价格</p><h1 id="cpu"><a class="markdownIt-Anchor" href="#cpu">#</a> CPU</h1><p>cpu 的主频和核心两个参考系数是我们购买的主要标准，其中主频越强说明 cpu 的运算能力越快，核心数量越多运算通道越多，所以购买 cpu 时我所要考虑的是主频，核心数对我来说四核勉强够用了，有八核的虽好，cpu 选用英特尔的 i7 酷睿，如果可以 i9 是最好的选择，最后应该是可以换 cpu 的</p><h1 id="ram"><a class="markdownIt-Anchor" href="#ram">#</a> RAM</h1><p>内存条的大小肯定是越大越好的，这一点是毋庸置疑的，我所构建的服务器以后可能要进行一定的系统备份，故一个足够大的内存条是我们之后的必须</p><h1 id="hard-disk"><a class="markdownIt-Anchor" href="#hard-disk">#</a> Hard Disk</h1><p>硬盘需要够硬才叫硬盘，哈哈，开个玩笑，我们的硬盘容量也不用像小型企业或是学校那样搞个磁盘阵列 (RAID)</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 电脑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Wacom驱动安装</title>
       <link href="2021/11/22/wacom-driver-installation/"/>
       <url>2021/11/22/wacom-driver-installation/</url>
