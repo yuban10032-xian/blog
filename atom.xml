@@ -6,7 +6,7 @@
   <link href="http://kinomotosakura.net/atom.xml" rel="self"/>
   
   <link href="http://kinomotosakura.net/"/>
-  <updated>2021-11-23T15:45:20.844Z</updated>
+  <updated>2021-11-24T13:58:03.621Z</updated>
   <id>http://kinomotosakura.net/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自制CPU</title>
+    <link href="http://kinomotosakura.net/2021/11/24/self-made-cpu/"/>
+    <id>http://kinomotosakura.net/2021/11/24/self-made-cpu/</id>
+    <published>2021-11-24T13:49:26.000Z</published>
+    <updated>2021-11-24T13:58:03.621Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;认识cpu&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#认识cpu&quot;&gt;#&lt;/a&gt; 认识 CPU&lt;/h3&gt;
+&lt;p&gt;首先我们要认识 CPU，这是人类至今为止科技水平最高的体现之一，CPU</summary>
+        
+      
+    
+    
+    
+    
+    <category term="科技" scheme="http://kinomotosakura.net/tags/%E7%A7%91%E6%8A%80/"/>
+    
+  </entry>
   
   <entry>
     <title>构建Linux电脑硬件配置</title>
@@ -467,29 +491,6 @@
         
     <summary type="html">&lt;p&gt;這一份教程用於教授你如何科學的上網&lt;/p&gt;
 &lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$</summary>
-        
-      
-    
-    
-    
-    
-    <category term="教程" scheme="http://kinomotosakura.net/tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo博客網站學習筆記</title>
-    <link href="http://kinomotosakura.net/2021/05/10/learning-notes-of-hexo-blog-website/"/>
-    <id>http://kinomotosakura.net/2021/05/10/learning-notes-of-hexo-blog-website/</id>
-    <published>2021-05-10T01:53:34.000Z</published>
-    <updated>2021-05-15T16:04:08.089Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;hexo的学习&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#hexo的学习&quot;&gt;#&lt;/a&gt; hexo</summary>
         
       
     

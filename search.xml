@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>自制CPU</title>
+      <link href="2021/11/24/self-made-cpu/"/>
+      <url>2021/11/24/self-made-cpu/</url>
+      
+        <content type="html"><![CDATA[<h3 id="认识cpu"><a class="markdownIt-Anchor" href="#认识cpu">#</a> 认识 CPU</h3><p>首先我们要认识 CPU，这是人类至今为止科技水平最高的体现之一，CPU 的集成电路是一项令人震惊的发明</p><p>中央处理器（CPU），是电子计算机的主要设备之一，电脑中的核心配件。其功能主要是解释计算机指令以及处理计算机软件中的数据。CPU 是计算机中负责读取指令，对指令译码并执行指令的核心部件。中央处理器主要包括两个部分，即控制器、运算器，其中还包括高速缓冲存储器及实现它们之间联系的数据、控制的总线。电子计算机三大核心部件就是 CPU、内部存储器、输入 / 输出设备。中央处理器的功效主要为处理指令、执行操作、控制时间、处理数据。<br>在计算机体系结构中，CPU 是对计算机的所有硬件资源（如存储器、输入输出单元） 进行控制调配、执行通用运算的核心硬件单元。CPU 是计算机的运算和控制核心。计算机系统中所有软件层的操作，最终都将通过指令集映射为 CPU 的操作。<br>—— 摘自百度</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 科技 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>构建Linux电脑硬件配置</title>
       <link href="2021/11/23/building-linux-computer-hardware-configuration/"/>
       <url>2021/11/23/building-linux-computer-hardware-configuration/</url>
