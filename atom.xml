@@ -6,7 +6,7 @@
   <link href="http://kinomotosakura.net/atom.xml" rel="self"/>
   
   <link href="http://kinomotosakura.net/"/>
-  <updated>2021-11-24T17:27:03.095Z</updated>
+  <updated>2022-01-10T16:34:31.342Z</updated>
   <id>http://kinomotosakura.net/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>维修电Repair-computer</title>
+    <link href="http://kinomotosakura.net/2022/01/11/repair-computer/"/>
+    <id>http://kinomotosakura.net/2022/01/11/repair-computer/</id>
+    <published>2022-01-10T16:21:00.000Z</published>
+    <updated>2022-01-10T16:34:31.342Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;维修一台尘封几年的老电脑&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#维修一台尘封几年的老电脑&quot;&gt;#&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="维修" scheme="http://kinomotosakura.net/tags/%E7%BB%B4%E4%BF%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>自制CPU</title>
@@ -474,30 +497,6 @@
     
     
     <category term="讨论" scheme="http://kinomotosakura.net/tags/%E8%AE%A8%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>科学上网教程</title>
-    <link href="http://kinomotosakura.net/2021/05/11/science-online-course/"/>
-    <id>http://kinomotosakura.net/2021/05/11/science-online-course/</id>
-    <published>2021-05-10T16:42:21.000Z</published>
-    <updated>2021-10-21T11:49:57.567Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;這一份教程用於教授你如何科學的上網&lt;/p&gt;
-&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$</summary>
-        
-      
-    
-    
-    
-    
-    <category term="教程" scheme="http://kinomotosakura.net/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
