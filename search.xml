@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Web服务器Apache2</title>
+      <link href="2022/03/14/web-server-apache2/"/>
+      <url>2022/03/14/web-server-apache2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言">#</a> 前言</h2><p>我之前一直都是使用 GitHub 的代理，这一次我发现有一个 apache2 的 Web 服务器，我就来试试，结果很好用</p><h2 id="命令"><a class="markdownIt-Anchor" href="#命令">#</a> 命令</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> apache2           <span class="token comment">#安装</span>$ <span class="token function">sudo</span> <span class="token function">apt</span> remove apache2            <span class="token comment">#卸载</span>$ <span class="token function">sudo</span> /etc/init.d/apache2 start     <span class="token comment">#启动</span>$ <span class="token function">sudo</span> /etc/init.d/apache2 stop      <span class="token comment">#停止</span>$ <span class="token function">sudo</span> /etc/init.d/apache2 restart   <span class="token comment">#重启</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="配置"><a class="markdownIt-Anchor" href="#配置">#</a> 配置</h2><p>默认配置文件夹   /etc/apache2<br> 默认网站根目录   /var/www/html</p><p>在 /etc/apache2/apache2.conf 中找到 /var/www/ 定义为新的根目录，其中根目录的下级目录中要有 index.html<br> 进入 /etc/apache2/sites-available/000-default.conf，将 DocumentRoot 后的 /var/www/html 更改成新的根目录<br>重启 apache2</p><h2 id="总结"><a class="markdownIt-Anchor" href="#总结">#</a> 总结</h2><p>其实还是挺好用的，虽然不及域名那么好用</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>维修电Repair-computer</title>
       <link href="2022/01/11/repair-computer/"/>
       <url>2022/01/11/repair-computer/</url>
